@@ -1,0 +1,79 @@
+* {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1,
+h4 {
+    color: white;
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h4>a {
+    color: white;
+    text-decoration: none;
+}
+h4>a:hover {
+    color: rgb(68, 247, 187);
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: 100vh;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.content {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.content>input {
+    padding: 1rem;
+    flex: 0.5;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+
+.content>button {
+    background-color: rgb(56, 164, 219);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+.content>button:hover {
+    background-color: rgb(68, 247, 187);
+    color: black;
+    transition: 0.3s;
+}
