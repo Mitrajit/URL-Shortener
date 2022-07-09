@@ -1,4 +1,4 @@
-# URL Shortner
+# URL Shortener
 This simple front-end only app aims to shorten the URL using jsonbin as database.
 
 # Quick Start
